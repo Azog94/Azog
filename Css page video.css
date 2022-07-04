@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    margin-top: -10%;
+    cursor: url('YOUTUBE.png') ;
+}
+ .bloc{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.bloc video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    overflow: hidden;
+    
+}
+.Présentation{
+    margin-top: -32%;
+    width: 900px;
+    margin-left: 18.05%;
+    box-shadow: 4px 4px 100px;
+}
+.abo{
+    margin-top: 4%;
+    width: 360px;
+    box-shadow: 4px 4px 100px;
+    margin-left: 38%;
+}
+
+.bouttonaceuil:hover {
+background-color: #84191B;
+color: white;
+transform: scale(1.05);
+background-image: url("TWITCH.png");
+background-repeat: no-repeat;
+background-size: 55px;
+background-position: top right;
+background-position-x: center;
+background-position-y: center ;
+
+
+
+}
+.bouttonaceuil {
+    background-image: url("icon-fleche.png");
+    background-size: 63px;
+    background-position: top left;
+    background-position-x: center;
+background-position-y: top ;
+width: 70px;
+height: 70px;
+margin-bottom: 0%;
+margin-left: 2.5%;
+margin-top: 5px;
+background-color: #EC3139;
+color: black;
+box-shadow: 1px 1px 12px #555;
+font-size: 15px;
+border: none;
+padding: 10px 20px;
+border-radius: 50%;
+outline: none;
+cursor: pointer;
+transition: transform 0.5s;
+
+}
+.boutonversaceuil {
+margin-left: 0%;
+
+}
+.retour{
+margin-left: -52%;
+width: 61px;
+margin-top: -7px;
+
+}
